@@ -10,12 +10,11 @@ const Second = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         width: "100vw",
-        height: "100vh",
+        minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        padding: "2rem",
       }}
     >
       <div
@@ -25,8 +24,7 @@ const Second = () => {
           display: "flex",
           flexDirection: "column",
           gap: "2rem",
-          maxWidth: "800px",
-          margin: "0 auto",
+          maxWidth: "100%",
           backgroundColor: "rgba(255, 255, 255, 0.5)",
           className: "animate-fadeIn",
           padding: "2rem",
@@ -34,7 +32,7 @@ const Second = () => {
       >
         <div
           style={{
-            fontSize: "1.2rem",
+            fontSize: "4vw",
             color: "#4B0082",
             fontFamily: "MonAmour",
             lineHeight: "1.8",
@@ -43,10 +41,10 @@ const Second = () => {
             gap: "1rem",
           }}
         >
-          <span>Қуаныштың таңы арайланыпатты кел,</span>
-          <span>Ақтарылсын жүректерденақ тілек.</span>
-          <span>Балаларымыздың тұсаукесер, біржасы,</span>
-          <span>Тәй-тәй басқан қадамынабақ тілек.</span>
+          <span>Қуаныштың таңы арайланып атты кеп,</span>
+          <span>Ақтарылсын жүректерден ақ тілек.</span>
+          <span>Балаларымыздың тұсаукесер, 1 жасы,</span>
+          <span>Тәй-тәй басқан қадамына бақ тілеп.</span>
 
           <span>
             <span
@@ -58,9 +56,9 @@ const Second = () => {
                 letterSpacing: "2px",
               }}
             >
-              Ясин
+              Ясин,
             </span>
-            <span style={{ margin: "0 10px" }}>,</span>
+            <span style={{ margin: "0 10px" }}></span>
             <span
               style={{
                 color: "#6A5ACD",
@@ -74,9 +72,9 @@ const Second = () => {
             </span>
             <span> балаларымыздың</span>
           </span>
-          <span>біржас тұсаукесер тойына</span>
-          <span>жайылған ақдастарханымыздың</span>
-          <span>қадірлі қонағыболуға шақырамыз!</span>
+          <span>1 жас тұсаукесер тойына</span>
+          <span>жайылған ақ дастарханымыздың</span>
+          <span>қадірлі қонағы болуға шақырамыз!</span>
         </div>
       </div>
     </div>

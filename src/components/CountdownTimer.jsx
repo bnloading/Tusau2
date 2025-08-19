@@ -59,6 +59,7 @@ const CountdownTimer = () => {
           fontFamily: "MonAmour",
           marginBottom: "2rem",
           textShadow: "2px 2px 4px rgba(0,0,0,0.1)",
+          textAlign: "center"
         }}
       >
         Тойға дейін қалған уақыт
@@ -125,7 +126,7 @@ const CountdownTimer = () => {
           marginTop: "2rem",
           fontSize: "1.8rem",
           color: "#6A5ACD",
-          fontFamily: "monospace",
+          fontFamily: "MonAmour",
           textAlign: "center",
           lineHeight: "1.5",
         }}
@@ -134,7 +135,7 @@ const CountdownTimer = () => {
           style={{
             fontSize: "1.3rem",
             marginTop: "0.5rem",
-            fontFamily: "monospace",
+            fontFamily: "MonAmour",
           }}
         >
           2025.08.30 күні,

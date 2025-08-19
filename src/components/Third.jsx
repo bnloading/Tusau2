@@ -14,7 +14,7 @@ const Third = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        padding: "1rem",
+        // padding: "0 1rem",
       }}
     >
       <div
@@ -23,9 +23,10 @@ const Third = () => {
           maxWidth: "600px",
           margin: "0 auto",
           backgroundColor: "rgba(255, 255, 255, 0.5)",
-          padding: "1rem",
+          // padding: "1rem",
           borderRadius: "15px",
           boxShadow: "0 0 20px rgba(0,0,0,0.05)",
+          padding: 8
         }}
       >
         <div
@@ -37,7 +38,6 @@ const Third = () => {
           <h2
             style={{
               fontSize: "2.5rem",
-
               color: "#FF1493",
               fontFamily: "MonAmour",
               textShadow: "2px 2px 4px rgba(0,0,0,0.1)",
@@ -49,15 +49,15 @@ const Third = () => {
 
           <div style={{ fontSize: "2rem", marginBottom: "1rem" }}>
             <span style={{ marginBottom: "0.8rem", fontFamily: "MonAmour" }}>
-              <span style={{ color: "#FF1493", fontWeight: "bold" }}>
+              <div style={{ color: "#FF1493", fontWeight: "bold" }}>
                 Ата-апасы:
-              </span>{" "}
-              <span style={{ color: "#4B0082", fontFamily: "monospace" }}>
+              </div>{" "}
+              <span style={{ color: "#4B0082", fontFamily: "MonAmour" }}>
                 Баделғажы, Тәшімбек <br />
               </span>
             </span>
             <span>
-              <span
+              <div
                 style={{
                   color: "#FF1493",
                   fontWeight: "bold",
@@ -65,8 +65,8 @@ const Third = () => {
                 }}
               >
                 Әке-шешесі:
-              </span>{" "}
-              <span style={{ color: "#4B0082", fontFamily: "monospace" }}>
+              </div>{" "}
+              <span style={{ color: "#4B0082", fontFamily: "MonAmour" }}>
                 Ержанат, Амангүл
               </span>
             </span>
@@ -109,8 +109,8 @@ const Third = () => {
           </p>
 
           <p>
-            <span style={{ color: "#4B0082", fontFamily: "monospace" }}>
-              2025.01.30 күні
+            <span style={{ color: "#4B0082", fontFamily: "MonAmour" }}>
+              2025.08.30 күні
             </span>
             <br />
             <span
@@ -119,7 +119,7 @@ const Third = () => {
                 color: "#FF1493",
                 fontWeight: "bold",
                 textShadow: "1px 1px 3px rgba(0,0,0,0.1)",
-                fontFamily: "monospace",
+                fontFamily: "MonAmour",
               }}
             >
               12:00 <br />

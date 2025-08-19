@@ -75,11 +75,13 @@ const First = () => {
           alignItems: "center",
           justifyContent: "center",
           textAlign: "center",
+          padding: "16px",
+          maxWidth: "300px"
         }}
       >
         <h1
           style={{
-            fontSize: "4rem",
+            fontSize: "15vw",
             marginBottom: "1rem",
             color: "#FF6F91",
             fontFamily: "MonAmour",
@@ -88,7 +90,7 @@ const First = () => {
             textShadow: "2px 2px 6px rgba(255,255,255,0.6)",
           }}
         >
-          1 жас Тұсаукесер
+          Тұсаукесер
         </h1>
 
         <div
@@ -102,22 +104,22 @@ const First = () => {
         >
           <span
             style={{
-              fontSize: "4rem",
+              fontSize: "10vw",
               color: "#6A5ACD",
-              fontFamily: "RosaMarena",
+              fontFamily: "MonAmour",
               letterSpacing: "2px",
               fontWeight: "normal",
               textShadow: "1px 1px 6px rgba(255,255,255,0.5)",
             }}
           >
-            Ясин ,
+            Ясин,
           </span>
 
           <span
             style={{
-              fontSize: "4rem",
+              fontSize: "10vw",
               color: "#FF69B4",
-              fontFamily: "RosaMarena",
+              fontFamily: "MonAmour",
               letterSpacing: "2px",
               fontWeight: "normal",
               textShadow: "1px 1px 6px rgba(255,255,255,0.5)",
